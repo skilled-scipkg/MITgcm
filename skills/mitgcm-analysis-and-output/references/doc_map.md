@@ -1,0 +1,162 @@
+# MITgcm documentation map: Analysis and Output
+
+Generated from documentation roots:
+- `doc`
+- `verification`
+- `doc/examples`
+- `tools/example_scripts`
+- `utils/python/MITgcmutils/MITgcmutils/examples`
+
+Total docs grouped in this topic: 150
+
+## File inventory
+- `verification/ideal_2D_oce/results/output.txt` | title: Iter.Nb:     36000 ; Time(s):  3.1104000000000E+09 | headings: Iter.Nb:     36000 ; Time(s):  3.1104000000000E+09; 2D/3D diagnostics: Number of lists:     4; 187 |GM_VisbK|      6 |      0 |   1 |       0 |
+- `verification/global_ocean.90x40x15/results/output.txt` | title: Iter.Nb:     36000 ; Time(s):  3.1104000000000E+09 | headings: Iter.Nb:     36000 ; Time(s):  3.1104000000000E+09; 2D/3D diagnostics: Number of lists:     3; 74 |PHIBOTSQ|      5 |      0 |   1 |       0 |
+- `verification/global_ocean.90x40x15/results/output.dwnslp.txt` | title: Iter.Nb:     36000 ; Time(s):  3.1104000000000E+09 | headings: Iter.Nb:     36000 ; Time(s):  3.1104000000000E+09; 2D/3D diagnostics: Number of lists:     3; 233 |Add2EmP |      8 |      0 |   1 |       0 |
+- `verification/fizhi-cs-aqualev20/results/output.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     4; 93 |RSURF   |     27 |      0 |   1 |       0 |
+- `verification/atm_gray/results/output.txt` | title: Iter.Nb:     81000 ; Time(s):  3.1104000000000E+07 | headings: Iter.Nb:     81000 ; Time(s):  3.1104000000000E+07; 2D/3D diagnostics: Number of lists:     2; 213 |AtPhUSLR|     16 |      0 |   1 |       0 |
+- `verification/global_ocean.cs32x15/results/output.in_p.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     4; 78 |MXLDEPTH|     11 |      0 |   1 |       0 |
+- `verification/global_ocean.cs32x15/results/output.thsice.txt` | title: Iter.Nb:     36000 ; Time(s):  3.1104000000000E+09 | headings: Iter.Nb:     36000 ; Time(s):  3.1104000000000E+09; 2D/3D diagnostics: Number of lists:     6; 85 |oceFWflx|     17 |      0 |   1 |       0 |
+- `verification/atm_gray/results/output.ape.txt` | title: Iter.Nb:     81000 ; Time(s):  3.1104000000000E+07 | headings: Iter.Nb:     81000 ; Time(s):  3.1104000000000E+07; 2D/3D diagnostics: Number of lists:     4; 213 |AtPhUSLR|     16 |      0 |   1 |       0 |
+- `verification/aim.5l_cs/results/output.thSI.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     5; 25 |DETADT2 |      3 |      0 |   1 |       0 |
+- `verification/vermix/results/output.gglLC.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     3; 115 |DFrI_TH |    131 |      0 |  26 |       0 |
+- `verification/vermix/results/output.ggl90.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     3; 115 |DFrI_TH |    131 |      0 |  26 |       0 |
+- `verification/shelfice_2d_remesh/results/output.txt` | title: Iter.Nb:      2898 ; Time(s):  8.6940000000000E+05 | headings: Iter.Nb:      2898 ; Time(s):  8.6940000000000E+05; 2D/3D diagnostics: Number of lists:     2; 202 |SHIuStar|     13 |      0 |   1 |       0 |
+- `verification/lab_sea/results/output.txt` | title: Iter.Nb:         1 ; Time(s):  3.6000000000000E+03 | headings: Iter.Nb:         1 ; Time(s):  3.6000000000000E+03; 2D/3D diagnostics: Number of lists:     4; 202 |EXFatemp|     11 |      0 |   1 |       0 |
+- `verification/lab_sea/results/output.hb87.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     4; 202 |EXFatemp|     11 |      0 |   1 |       0 |
+- `verification/lab_sea/results/output.fd.txt` | title: Iter.Nb:         1 ; Time(s):  3.6000000000000E+03 | headings: Iter.Nb:         1 ; Time(s):  3.6000000000000E+03; 2D/3D diagnostics: Number of lists:     4; 199 |EXFatemp|     11 |      0 |   1 |       0 |
+- `verification/isomip/results/output.stic.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     3; 27 |SALT    |    241 |      0 |  30 |       0 |
+- `verification/global_ocean.cs32x15/results/output.viscA4.txt` | title: Iter.Nb:     86400 ; Time(s):  3.1104000000000E+08 | headings: Iter.Nb:     86400 ; Time(s):  3.1104000000000E+08; 2D/3D diagnostics: Number of lists:     3; 82 |oceTAUY |      4 |      3 |   1 |       0 |       0 |
+- `verification/global_ocean.cs32x15/results/output.seaice.txt` | title: Iter.Nb:     72000 ; Time(s):  6.2208000000000E+09 | headings: Iter.Nb:     72000 ; Time(s):  6.2208000000000E+09; 2D/3D diagnostics: Number of lists:     2; 92 |SRELAX  |     12 |      0 |   1 |       0 |
+- `verification/global_oce_latlon/results/output.yearly.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     4; 209 |EXFempmr|      4 |      0 |   1 |       0 |
+- `verification/deep_anelastic/results/output.vecinv.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     3; 64 |RHOAnoma|      1 |      0 | 120 |       0 |
+- `verification/deep_anelastic/results/output.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     3; 64 |RHOAnoma|      1 |      0 | 120 |       0 |
+- `verification/MLAdjust/results/output.QGLthGM.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     3; 157 |Stretch |    201 |      0 |  40 |       0 |
+- `verification/vermix/results/output.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     3; 115 |DFrI_TH |    131 |      0 |  26 |       0 |
+- `verification/vermix/results/output.my82.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     3; 101 |DFrI_TH |    131 |      0 |  26 |       0 |
+- `verification/vermix/results/output.dd.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     3; 101 |DFrI_TH |    131 |      0 |  26 |       0 |
+- `verification/so_box_biogeo/results/output.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     2; 287 |DICPHAV |     10 |      0 |   1 |       0 |
+- `verification/so_box_biogeo/results/output.saphe.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     2; 287 |DICPHAV |     10 |      0 |   1 |       0 |
+- `verification/so_box_biogeo/results/output.caSat3.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     2; 290 |DICPHAV |     10 |      0 |   1 |       0 |
+- `verification/so_box_biogeo/results/output.caSat0.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     2; 293 |DICPHAV |     10 |      0 |   1 |       0 |
+- `verification/offline_exf_seaice/results/output.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     2; 166 |SIvice  |     11 |     10 |   1 |       0 |       0 |
+- `verification/offline_exf_seaice/results/output.thermo.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     2; 165 |SIatmFW |     10 |      0 |   1 |       0 |
+- `verification/isomip/results/output.htd.txt` | title: Iter.Nb:      8640 ; Time(s):  1.5552000000000E+07 | headings: Iter.Nb:      8640 ; Time(s):  1.5552000000000E+07; 2D/3D diagnostics: Number of lists:     2; 202 |SHI_TauY|     14 |     13 |   1 |       0 |       0 |
+- `verification/ideal_2D_oce/results/output.geom.txt` | title: Iter.Nb:     36000 ; Time(s):  3.1104000000000E+09 | headings: Iter.Nb:     36000 ; Time(s):  3.1104000000000E+09; 2D/3D diagnostics: Number of lists:     2; 221 |GEOM_c1 |      9 |      0 |   1 |       0 |
+- `verification/hs94.cs-32x32x5/results/output.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     3; 25 |DETADT2 |      3 |      0 |   1 |       0 |
+- `verification/global_ocean.cs32x15/results/output.icedyn.txt` | title: Iter.Nb:     72000 ; Time(s):  6.2208000000000E+09 | headings: Iter.Nb:     72000 ; Time(s):  6.2208000000000E+09; 2D/3D diagnostics: Number of lists:     1; 91 |SRELAX  |     12 |      0 |   1 |       0 |
+- `verification/global_oce_latlon/results/output.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     3; 209 |EXFempmr|      4 |      0 |   1 |       0 |
+- `verification/front_relax/results/output.mxl.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     2; 192 |GM_rLamb|      9 |      0 |   1 |       0 |
+- `verification/front_relax/results/output.in_p.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     2; 76 |MXLDEPTH|      4 |      0 |   1 |       0 |
+- `verification/front_relax/results/output.bvp.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     3; 196 |SubMpsiY|      8 |      0 |   1 |       0 |
+- `verification/MLAdjust/results/output.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     2; 157 |Stretch |    201 |      0 |  40 |       0 |
+- `verification/MLAdjust/results/output.QGLeith.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     2; 157 |Stretch |    201 |      0 |  40 |       0 |
+- `verification/MLAdjust/results/output.AhVrDv.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     2; 157 |Stretch |    201 |      0 |  40 |       0 |
+- `verification/MLAdjust/results/output.AhStTn.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     2; 157 |Stretch |    201 |      0 |  40 |       0 |
+- `verification/MLAdjust/results/output.A4FlxF.txt` | title: Iter.Nb:        36 ; Time(s):  4.3200000000000E+04 | headings: Iter.Nb:        36 ; Time(s):  4.3200000000000E+04; 2D/3D diagnostics: Number of lists:     2; 157 |Stretch |    201 |      0 |  40 |       0 |
+- `verification/vermix/results/output.pp81.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     2; 101 |DFrI_TH |    131 |      0 |  26 |       0 |
+- `verification/vermix/results/output.opps.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     2; 101 |DFrI_TH |    131 |      0 |  26 |       0 |
+- `verification/solid-body.cs-32x32x1/results/output.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     1; 150 |momVort3|      2 |      0 |   1 |       0 |
+- `verification/short_surf_wave/results/output.txt` | title: Iter.Nb:         1 ; Time(s):  5.0000000000000E-03 | headings: Iter.Nb:         1 ; Time(s):  5.0000000000000E-03; 2D/3D diagnostics: Number of lists:     1; 25 |DETADT2 |      3 |      0 |   1 |       0 |
+- `verification/seaice_itd/results/output.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     1; 146 |SIarea  |      4 |      0 |   1 |       0 |
+- `verification/seaice_itd/results/output.thermo.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     1; 146 |SIarea  |      4 |      0 |   1 |       0 |
+- `verification/seaice_itd/results/output.lipscomb07.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     1; 146 |SIarea  |      4 |      0 |   1 |       0 |
+- `verification/offline_exf_seaice/results/output.thsice.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     1; 137 |EXFempmr|     11 |      0 |   1 |       0 |
+- `verification/offline_exf_seaice/results/output.dyn_teardrop.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     1; 225 |SI_Thick|      5 |      4 |   1 |       0 |       0 |
+- `verification/offline_exf_seaice/results/output.dyn_paralens.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     1; 225 |SI_Thick|      5 |      4 |   1 |       0 |       0 |
+- `verification/offline_exf_seaice/results/output.dyn_mce.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     1; 146 |SIarea  |      4 |      0 |   1 |       0 |
+- `verification/offline_exf_seaice/results/output.dyn_lsr.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     1; 148 |SIarea  |      4 |      0 |   1 |       0 |
+- `verification/offline_exf_seaice/results/output.dyn_jfnk.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     1; 217 |SI_Thick|      5 |      4 |   1 |       0 |       0 |
+- `verification/offline_exf_seaice/results/output.dyn_ellnnfr.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     1; 146 |SIarea  |      4 |      0 |   1 |       0 |
+- `verification/lab_sea/results/output.natl_box.txt` | title: Iter.Nb:         0 ; Time(s):  2.1600000000000E+04 | headings: Iter.Nb:         0 ; Time(s):  2.1600000000000E+04; 2D/3D diagnostics: Number of lists:     2; 190 |KPPghatK|     70 |      0 |  23 |       0 |
+- `verification/isomip/results/output.obcs.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     1; 27 |SALT    |    241 |      0 |  30 |       0 |
+- `verification/isomip/results/output.icefront.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     2; 197 |SHIhtFlx|      2 |      0 |   1 |       0 |
+- `verification/inverted_barometer/results/output.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     1; 33 |THETASQ |      5 |      0 |   4 |       0 |
+- `verification/hs94.1x64x5/results/output_adm.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     1; 25 |DETADT2 |      3 |      0 |   1 |       0 |
+- `verification/hs94.1x64x5/results/output.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     1; 25 |DETADT2 |      3 |      0 |   1 |       0 |
+- `verification/global_ocean.cs32x15/results/output.txt` | title: Iter.Nb:     72000 ; Time(s):  6.2208000000000E+09 | headings: Iter.Nb:     72000 ; Time(s):  6.2208000000000E+09; 2D/3D diagnostics: Number of lists:     1; 210 |GM_PsiY |    106 |     91 |  15 |       0 |       0 |
+- `verification/global_ocean.90x40x15/results/output.idemix.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     2; 200 |GGL90tau|     11 |      0 |   1 |       0 |
+- `verification/global_oce_biogeo_bling/results/output.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     2; 315 |TRAC08  |    106 |      0 |  15 |       0 |
+- `verification/front_relax/results/output.top.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     2; 76 |MXLDEPTH|      4 |      0 |   1 |       0 |
+- `verification/fizhi-gridalt-hs/results/output.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     2; 23 |ETAN    |      1 |      0 |   1 |       0 |
+- `verification/advect_xz/results/output.nlfs.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     1; 124 |ADVr_SLT|     61 |      0 |  20 |       0 |
+- `verification/advect_cs/results/output.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     1; 27 |SALT    |      2 |      0 |   1 |       0 |
+- `verification/MLAdjust/results/output.AhFlxF.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     2; 151 |Tension |    161 |      0 |  40 |       0 |
+- `verification/lab_sea/results/output.longstep.txt` | title: Iter.Nb:         0 ; Time(s):  2.1600000000000E+04 | headings: Iter.Nb:         0 ; Time(s):  2.1600000000000E+04; 2D/3D diagnostics: Number of lists:     1; 236 |TRAC01  |      1 |      0 |  23 |       0 |
+- `verification/halfpipe_streamice/results/output.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     1; 115 |SI_selev|      6 |      0 |   1 |       0 |
+- `verification/dome/results/output.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     1; 114 |VISCA4D |      1 |      0 |  25 |       0 |
+- `verification/cheapAML_box/results/output.txt` | title: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00 | headings: Iter.Nb:         0 ; Time(s):  0.0000000000000E+00; 2D/3D diagnostics: Number of lists:     1; 196 |CH_Vwind|      6 |      5 |   1 |       0 |       0 |
+- `verification/seaice_obcs/results/output.txt` | title: Output | headings: (no heading extracted)
+- `verification/seaice_obcs/results/output.tides.txt` | title: Output Tides | headings: (no heading extracted)
+- `verification/seaice_obcs/results/output.seaiceSponge.txt` | title: Output Seaicesponge | headings: (no heading extracted)
+- `verification/seaice_obcs/results/output.regDenom.txt` | title: Output Regdenom | headings: (no heading extracted)
+- `verification/offline_exf_seaice/results/output_adm.txt` | title: Output Adm | headings: (no heading extracted)
+- `verification/offline_exf_seaice/results/output_adm.thsice.txt` | title: Output Adm Thsice | headings: (no heading extracted)
+- `verification/offline_exf_seaice/results/output_adm.obcs.txt` | title: Output Adm Obcs | headings: (no heading extracted)
+- `verification/obcs_ctrl/results/output_adm.txt` | title: Output Adm | headings: (no heading extracted)
+- `verification/lab_sea/results/output_tap_adj.txt` | title: Output Tap Adj | headings: (no heading extracted)
+- `verification/lab_sea/results/output_tap_adj.noecco.txt` | title: Output Tap Adj Noecco | headings: (no heading extracted)
+- `verification/lab_sea/results/output_adm.txt` | title: Output Adm | headings: (no heading extracted)
+- `verification/lab_sea/results/output_adm.noseaicedyn.txt` | title: Output Adm Noseaicedyn | headings: (no heading extracted)
+- `verification/lab_sea/results/output_adm.noseaice.txt` | title: Output Adm Noseaice | headings: (no heading extracted)
+- `verification/lab_sea/results/output.salt_plume.txt` | title: Output Salt Plume | headings: (no heading extracted)
+- `verification/isomip/results/output_tap_tlm.txt` | title: Output Tap Tlm | headings: (no heading extracted)
+- `verification/isomip/results/output_tap_adj.txt` | title: Output Tap Adj | headings: (no heading extracted)
+- `verification/isomip/results/output_oadm.txt` | title: Output Oadm | headings: (no heading extracted)
+- `verification/isomip/results/output_adm.txt` | title: Output Adm | headings: (no heading extracted)
+- `verification/isomip/results/output_adm.stic.txt` | title: Output Adm Stic | headings: (no heading extracted)
+- `verification/isomip/results/output_adm.htd.txt` | title: Output Adm Htd | headings: (no heading extracted)
+- `verification/isomip/results/output.txt` | title: Output | headings: (no heading extracted)
+- `verification/internal_wave/results/output.txt` | title: Output | headings: (no heading extracted)
+- `verification/internal_wave/results/output.kl10.txt` | title: Output Kl10 | headings: (no heading extracted)
+- `verification/hs94.1x64x5/results/output_oadm.txt` | title: Output Oadm | headings: (no heading extracted)
+- `verification/hs94.128x64x5/results/output.txt` | title: Output | headings: (no heading extracted)
+- `verification/halfpipe_streamice/results/output_oadm.txt` | title: Output Oadm | headings: (no heading extracted)
+- `verification/halfpipe_streamice/results/output_adm.txt` | title: Output Adm | headings: (no heading extracted)
+- `verification/global_ocean.cs32x15/results/output_tap_tlm.txt` | title: Output Tap Tlm | headings: (no heading extracted)
+- `verification/global_ocean.cs32x15/results/output_tap_adj.txt` | title: Output Tap Adj | headings: (no heading extracted)
+- `verification/global_ocean.cs32x15/results/output_adm.txt` | title: Output Adm | headings: (no heading extracted)
+- `verification/global_ocean.cs32x15/results/output_adm.thsice.txt` | title: Output Adm Thsice | headings: (no heading extracted)
+- `verification/global_ocean.cs32x15/results/output_adm.seaice_dynmix.txt` | title: Output Adm Seaice Dynmix | headings: (no heading extracted)
+- `verification/global_ocean.cs32x15/results/output_adm.seaice.txt` | title: Output Adm Seaice | headings: (no heading extracted)
+- `verification/global_ocean.90x40x15/results/output_oadm.txt` | title: Output Oadm | headings: (no heading extracted)
+- `verification/global_ocean.90x40x15/results/output_adm.txt` | title: Output Adm | headings: (no heading extracted)
+- `verification/global_ocean.90x40x15/results/output_adm.kapredi.txt` | title: Output Adm Kapredi | headings: (no heading extracted)
+- `verification/global_ocean.90x40x15/results/output_adm.kapgm.txt` | title: Output Adm Kapgm | headings: (no heading extracted)
+- `verification/global_ocean.90x40x15/results/output_adm.bottomdrag.txt` | title: Output Adm Bottomdrag | headings: (no heading extracted)
+- `verification/global_oce_latlon/results/output_tap_tlm.w_exf.txt` | title: Output Tap Tlm W Exf | headings: (no heading extracted)
+- `verification/global_oce_latlon/results/output_tap_tlm.txt` | title: Output Tap Tlm | headings: (no heading extracted)
+- `verification/global_oce_latlon/results/output_tap_adj.w_exf.txt` | title: Output Tap Adj W Exf | headings: (no heading extracted)
+- `verification/global_oce_latlon/results/output_tap_adj.txt` | title: Output Tap Adj | headings: (no heading extracted)
+- `verification/global_oce_latlon/results/output_oadm.txt` | title: Output Oadm | headings: (no heading extracted)
+- `verification/global_oce_latlon/results/output_oadm.kpp.txt` | title: Output Oadm Kpp | headings: (no heading extracted)
+- `verification/global_oce_latlon/results/output_oadm.ggl90.txt` | title: Output Oadm Ggl90 | headings: (no heading extracted)
+- `verification/global_oce_latlon/results/output_adm.w_exf.txt` | title: Output Adm W Exf | headings: (no heading extracted)
+- `verification/global_oce_latlon/results/output_adm.txt` | title: Output Adm | headings: (no heading extracted)
+- `verification/global_oce_latlon/results/output_adm.ggl90.txt` | title: Output Adm Ggl90 | headings: (no heading extracted)
+- `verification/global_oce_latlon/results/output_adm.ebm.txt` | title: Output Adm Ebm | headings: (no heading extracted)
+- `verification/global_oce_latlon/results/output.ebm.txt` | title: Output Ebm | headings: (no heading extracted)
+- `verification/global_oce_biogeo_bling/results/output_tap_adj.txt` | title: Output Tap Adj | headings: (no heading extracted)
+- `verification/global_oce_biogeo_bling/results/output_adm.txt` | title: Output Adm | headings: (no heading extracted)
+- `verification/global_oce_biogeo_bling/results/output_adm.obsfit.txt` | title: Output Adm Obsfit | headings: (no heading extracted)
+- `verification/front_relax/results/output.txt` | title: Output | headings: (no heading extracted)
+- `verification/exp4/results/output.with_flt.txt` | title: Output With Flt | headings: (no heading extracted)
+- `verification/exp4/results/output.txt` | title: Output | headings: (no heading extracted)
+- `verification/exp4/results/output.stevens.txt` | title: Output Stevens | headings: (no heading extracted)
+- `verification/exp4/results/output.nlfs.txt` | title: Output Nlfs | headings: (no heading extracted)
+- `verification/exp2/results/output.txt` | title: Output | headings: (no heading extracted)
+- `verification/exp2/results/output.rigidLid.txt` | title: Output Rigidlid | headings: (no heading extracted)
+- `verification/bottom_ctrl_5x5/results/output_adm.txt` | title: Output Adm | headings: (no heading extracted)
+- `verification/bottom_ctrl_5x5/results/output_adm.facg2d.txt` | title: Output Adm Facg2d | headings: (no heading extracted)
+- `verification/aim.5l_cs/results/output.txt` | title: Output | headings: (no heading extracted)
+- `verification/aim.5l_LatLon/results/output.txt` | title: Output | headings: (no heading extracted)
+- `verification/aim.5l_Equatorial_Channel/results/output.txt` | title: Output | headings: (no heading extracted)
+- `verification/advect_xz/results/output.txt` | title: Output | headings: (no heading extracted)
+- `verification/advect_xz/results/output.pqm.txt` | title: Output Pqm | headings: (no heading extracted)
+- `verification/advect_xy/results/output.txt` | title: Output | headings: (no heading extracted)
+- `verification/advect_xy/results/output.ab3_c4.txt` | title: Output Ab3 C4 | headings: (no heading extracted)
+- `verification/adjustment.cs-32x32x1/results/output.txt` | title: Output | headings: (no heading extracted)
+- `verification/adjustment.cs-32x32x1/results/output.nlfs.txt` | title: Output Nlfs | headings: (no heading extracted)
+- `verification/adjustment.128x64x1/results/output.txt` | title: Output | headings: (no heading extracted)
+- `verification/1D_ocean_ice_column/results/output_adm.txt` | title: Output Adm | headings: (no heading extracted)
+- `verification/1D_ocean_ice_column/results/output.txt` | title: Output | headings: (no heading extracted)

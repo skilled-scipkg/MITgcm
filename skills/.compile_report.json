@@ -1,0 +1,110 @@
+{
+  "compiled_package_id": "mitgcm",
+  "evidence": {
+    "core_skills": [
+      "mitgcm-analysis-and-output",
+      "mitgcm-getting-started",
+      "mitgcm-examples-and-tutorials",
+      "mitgcm-inputs-and-modeling",
+      "mitgcm-build-and-install",
+      "mitgcm-theory-and-methods"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/mitgcm-analysis-and-output.md",
+      "skills/.evidence/mitgcm-getting-started.md",
+      "skills/.evidence/mitgcm-examples-and-tutorials.md",
+      "skills/.evidence/mitgcm-inputs-and-modeling.md",
+      "skills/.evidence/mitgcm-build-and-install.md",
+      "skills/.evidence/mitgcm-theory-and-methods.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "doc"
+    ],
+    "docs_only": false,
+    "notes": [
+      "verification/ serves as both regression-test coverage and tutorial-style experiment cases.",
+      "Generator dry-run was validated with explicit docs/tutorial/test/source directory arguments.",
+      "Patched sci-skills-generator/scripts/generate_skills_folder.py to avoid f-string backslash parse errors."
+    ],
+    "package_name": "MITgcm",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "eesupp",
+      "lsopt",
+      "model",
+      "optim",
+      "pkg",
+      "tools",
+      "utils/python/MITgcmutils/MITgcmutils"
+    ],
+    "test_dirs": [
+      "verification"
+    ],
+    "tutorial_dirs": [
+      "doc/examples",
+      "verification",
+      "utils/python/MITgcmutils/MITgcmutils/examples",
+      "tools/example_scripts"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mitgcm-mitgcm",
+  "validation": {
+    "core_skills_checked": [
+      "mitgcm-analysis-and-output",
+      "mitgcm-getting-started",
+      "mitgcm-examples-and-tutorials",
+      "mitgcm-inputs-and-modeling",
+      "mitgcm-build-and-install",
+      "mitgcm-theory-and-methods"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mitgcm-mitgcm/skills/mitgcm-advanced-topics/references/source_map.md: broken path references: mds.py",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mitgcm-mitgcm/skills/mitgcm-analysis-and-output/references/source_map.md: broken path references: output.txt",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mitgcm-mitgcm/skills/mitgcm-getting-started/references/source_map.md: broken path references: output.txt",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mitgcm-mitgcm/skills/mitgcm-analysis-and-output/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mitgcm-mitgcm/skills/mitgcm-getting-started/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mitgcm-mitgcm/skills/mitgcm-examples-and-tutorials/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mitgcm-mitgcm/skills/mitgcm-inputs-and-modeling/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mitgcm-mitgcm/skills/mitgcm-build-and-install/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mitgcm-mitgcm/skills/mitgcm-theory-and-methods/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "mitgcm-index"
+    ],
+    "ok": false,
+    "skills_total": 12,
+    "source_links_total": 146,
+    "topic_skills": 11,
+    "warnings": []
+  }
+}

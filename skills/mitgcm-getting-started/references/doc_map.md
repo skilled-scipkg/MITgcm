@@ -1,0 +1,76 @@
+# MITgcm documentation map: Getting Started
+
+Generated from documentation roots:
+- `doc`
+- `verification`
+- `doc/examples`
+- `tools/example_scripts`
+- `utils/python/MITgcmutils/MITgcmutils/examples`
+
+Total docs grouped in this topic: 64
+
+## File inventory
+- `verification/front_relax/README.md` | title: Relaxation of a front in a channel : simplest example that uses GM-Redi parameterization | headings: Relaxation of a front in a channel : simplest example that uses GM-Redi parameterization; Overview:; Instructions:
+- `verification/global_ocean_ebm/README.md` | title: Global Ocean Simulation at 4 degree Resolution, Alternative Forcing | headings: Global Ocean Simulation at 4 degree Resolution, Alternative Forcing; Overview:; Instructions for Forward tests:
+- `verification/lab_sea/README.md` | title: Primary test Overview: | headings: Primary test Overview:; Lab Sea adjoint; Instructions
+- `verification/global_oce_latlon/README.md` | title: Global Ocean Simulation at 4 degree Resolution, including Adjoint Set-Up | headings: Global Ocean Simulation at 4 degree Resolution, including Adjoint Set-Up; Overview:; Part 0, Forward only tests:
+- `verification/tutorial_plume_on_slope/README.md` | title: Overview: | headings: Overview:; Instructions; Comments
+- `verification/solid-body.cs-32x32x1/README.md` | title: Overview: | headings: Overview:; Instructions; Setup details
+- `doc/overview/overview.rst` | title: Overview | headings: Overview; Introduction; Illustrations of the model in action
+- `verification/exp4/README.md` | title: Overview: | headings: Overview:; Instructions:; Notes:
+- `verification/atm_gray/README.md` | title: Overview: | headings: Overview:; Instructions:; Notes:
+- `verification/cpl_aim+ocn/README.md` | title: Overview: | headings: Overview:; Instructions:; Atmosphere-Ocean coupled set-up example "cpl_aim+ocn"
+- `doc/phys_pkgs/ptracers.rst` | title: PTRACERS Package | headings: PTRACERS Package; Introduction; Equations
+- `doc/phys_pkgs/phys_pkgs.rst` | title: Packages I - Physical Parameterizations | headings: Packages I - Physical Parameterizations; Overview; Packages Related to Hydrodynamical Kernel
+- `doc/phys_pkgs/gchem.rst` | title: GCHEM Package | headings: GCHEM Package; Introduction; Key subroutines and parameters
+- `doc/phys_pkgs/packages_overview.rst` | title: Using MITgcm Packages | headings: Using MITgcm Packages; Package Inclusion/Exclusion; Package Activation
+- `doc/overview/hydrostatic.rst` | title: Hydrostatic, Quasi-hydrostatic, Quasi-nonhydrostatic and Non-hydrostatic forms | headings: Hydrostatic, Quasi-hydrostatic, Quasi-nonhydrostatic and Non-hydrostatic forms; Shallow atmosphere approximation; Hydrostatic and quasi-hydrostatic forms
+- `doc/phys_pkgs/streamice.rst` | title: STREAMICE Package | headings: STREAMICE Package; Introduction; STREAMICE configuration
+- `doc/phys_pkgs/shelfice.rst` | title: SHELFICE Package | headings: SHELFICE Package; Introduction; SHELFICE configuration
+- `doc/phys_pkgs/seaice.rst` | title: The following two parameters are required by mEVP and aEVP, | headings: The following two parameters are required by mEVP and aEVP,; but they are TRUE by default:; SEAICE Package
+- `doc/phys_pkgs/remesh.rst` | title: SHELFICE Remeshing | headings: SHELFICE Remeshing; Introduction; REMESHING configuration and compiling
+- `doc/phys_pkgs/rbcs.rst` | title: RBCS Package | headings: RBCS Package; Introduction; Key subroutines and parameters
+- `doc/phys_pkgs/obcs.rst` | title: OBCS: Open boundary conditions for regional modeling | headings: OBCS: Open boundary conditions for regional modeling; Introduction; OBCS configuration and compiling
+- `doc/phys_pkgs/kpp.rst` | title: KPP: Nonlocal K-Profile Parameterization for Vertical Mixing | headings: KPP: Nonlocal K-Profile Parameterization for Vertical Mixing; Introduction; KPP configuration and compiling
+- `doc/phys_pkgs/kl10.rst` | title: KL10: Vertical Mixing Due to Breaking Internal Waves | headings: KL10: Vertical Mixing Due to Breaking Internal Waves; Introduction; KL10 configuration and compiling
+- `doc/phys_pkgs/gridalt.rst` | title: Gridalt - Alternate Grid Package | headings: Gridalt - Alternate Grid Package; Introduction; Equations on Both Grids
+- `doc/phys_pkgs/gmredi.rst` | title: GMREDI: Gent-McWilliams/Redi Eddy Parameterization | headings: GMREDI: Gent-McWilliams/Redi Eddy Parameterization; Introduction; Description
+- `doc/phys_pkgs/generic_advdiff.rst` | title: Generic Advection/Diffusion | headings: Generic Advection/Diffusion; Introduction; Key subroutines, parameters and files
+- `doc/phys_pkgs/fizhi.rst` | title: Fizhi: High-end Atmospheric Physics | headings: Fizhi: High-end Atmospheric Physics; Introduction; Equations
+- `doc/phys_pkgs/exf.rst` | title: EXF: The external forcing package | headings: EXF: The external forcing package; Introduction; EXF configuration, compiling & running
+- `doc/phys_pkgs/exch2.rst` | title: exch2: Extended Cubed Sphere Topology | headings: exch2: Extended Cubed Sphere Topology; Introduction; Invoking exch2
+- `doc/outp_pkgs/outp_pkgs.rst` | title: Packages II - Diagnostics and I/O | headings: Packages II - Diagnostics and I/O; pkg/diagnostics – A Flexible Infrastructure; Introduction
+- `doc/outp_pkgs/flt.rst` | title: Introduction | headings: Introduction; Compile-time options in `FLT_OPTIONS.h`; | CPP Flag Name                                 | Default | Description                                                                                                          |
+- `doc/getting_started/getting_started.rst` | title: python | headings: python; Getting Started with MITgcm; Where to find information
+- `doc/contributing/contributing.rst` | title: include "${PKG}_PARAMS.h" | headings: include "${PKG}_PARAMS.h"; Contributing to the MITgcm; Bugs and feature requests
+- `doc/phys_pkgs/land.rst` | title: Land package | headings: Land package; Introduction; Equations and Key Parameters
+- `doc/examples/tracer_adjsens/tracer_adjsens.rst` | title: Adjoint Sensitivity Analysis for Tracer Injection | headings: Adjoint Sensitivity Analysis for Tracer Injection; Overview of the experiment; Passive tracer equation
+- `doc/examples/held_suarez_cs/held_suarez_cs.rst` | title: Held-Suarez Atmosphere | headings: Held-Suarez Atmosphere; Overview; Forcing
+- `doc/examples/global_oce_optim/global_oce_optim.rst` | title: Global Ocean State Estimation | headings: Global Ocean State Estimation; Overview; Implementation of the control variable and the cost function
+- `doc/examples/global_oce_latlon/global_oce_latlon.rst` | title: Global Ocean Simulation | headings: Global Ocean Simulation; Overview; Discrete Numerical Configuration
+- `doc/examples/global_oce_in_p/global_oce_in_p.rst` | title: Global Ocean Simulation in Pressure Coordinates | headings: Global Ocean Simulation in Pressure Coordinates; Overview; Discrete Numerical Configuration
+- `doc/examples/deep_convection/deep_convection.rst` | title: Deep Convection | headings: Deep Convection; Overview; Equations solved
+- `doc/examples/cfc_offline/cfc_offline.rst` | title: Offline Experiments | headings: Offline Experiments; Overview; Time-stepping of tracers
+- `doc/phys_pkgs/dic.rst` | title: DIC Package | headings: DIC Package; Introduction; Key subroutines and parameters
+- `doc/overview/forcing_dissip.rst` | title: Forcing/dissipation | headings: Forcing/dissipation; Forcing; Dissipation
+- `doc/overview/finding_pressure.rst` | title: Finding the pressure field | headings: Finding the pressure field; Hydrostatic pressure; Surface pressure
+- `doc/overview/eqn_motion_ocn.rst` | title: Equations of Motion for the Ocean | headings: Equations of Motion for the Ocean; Compressible z-coordinate equations; ‘Anelastic’ z-coordinate equations
+- `doc/examples/global_oce_biogeo/global_oce_biogeo.rst` | title: Biogeochemistry Simulation | headings: Biogeochemistry Simulation; Overview; Equations Solved
+- `doc/examples/advection_in_gyre/advection_in_gyre.rst` | title: Ocean Gyre Advection Schemes | headings: Ocean Gyre Advection Schemes; Advection and tracer transport; Introducing a tracer into the flow
+- `doc/overview/kinematic_bound.rst` | title: Kinematic Boundary conditions | headings: Kinematic Boundary conditions; Vertical; Horizontal
+- `doc/overview/hydro_prim_eqn.rst` | title: Hydrostatic Primitive Equations for the Atmosphere in Pressure Coordinates | headings: Hydrostatic Primitive Equations for the Atmosphere in Pressure Coordinates; Boundary conditions; Splitting the geopotential
+- `doc/overview/coordinate_sys.rst` | title: Coordinate systems | headings: Coordinate systems; Spherical coordinates
+- `doc/overview/vector_invar.rst` | title: Vector invariant form | headings: Vector invariant form
+- `doc/overview/soln_strategy.rst` | title: Solution strategy | headings: Solution strategy
+- `doc/overview/sim_lab_exp.rst` | title: Simulations of laboratory experiments | headings: Simulations of laboratory experiments
+- `doc/overview/parm_sens.rst` | title: Parameter sensitivity using the adjoint of MITgcm | headings: Parameter sensitivity using the adjoint of MITgcm
+- `doc/overview/ocean_gyres.rst` | title: Ocean gyres | headings: Ocean gyres
+- `doc/overview/ocean_biogeo_cyc.rst` | title: Ocean biogeochemical cycles | headings: Ocean biogeochemical cycles
+- `doc/overview/ocean.rst` | title: Ocean | headings: Ocean
+- `doc/overview/global_state_est.rst` | title: Global state estimation of the ocean | headings: Global state estimation of the ocean
+- `doc/overview/global_ocean_circ.rst` | title: Global ocean circulation | headings: Global ocean circulation
+- `doc/overview/global_atmos_hs.rst` | title: Global atmosphere: ‘Held-Suarez’ benchmark | headings: Global atmosphere: ‘Held-Suarez’ benchmark
+- `doc/overview/cvct_mixing_topo.rst` | title: Convection and mixing over topography | headings: Convection and mixing over topography
+- `doc/overview/bound_forc_inter_waves.rst` | title: Boundary forced internal waves | headings: Boundary forced internal waves
+- `doc/overview/atmosphere.rst` | title: Atmosphere | headings: Atmosphere
+- `doc/overview/adjoint.rst` | title: Adjoint | headings: Adjoint

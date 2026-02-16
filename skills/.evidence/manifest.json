@@ -1,0 +1,19 @@
+{
+  "core_skills": [
+    "mitgcm-analysis-and-output",
+    "mitgcm-getting-started",
+    "mitgcm-examples-and-tutorials",
+    "mitgcm-inputs-and-modeling",
+    "mitgcm-build-and-install",
+    "mitgcm-theory-and-methods"
+  ],
+  "evidence_dir": "skills/.evidence",
+  "files": [
+    "skills/.evidence/mitgcm-analysis-and-output.md",
+    "skills/.evidence/mitgcm-getting-started.md",
+    "skills/.evidence/mitgcm-examples-and-tutorials.md",
+    "skills/.evidence/mitgcm-inputs-and-modeling.md",
+    "skills/.evidence/mitgcm-build-and-install.md",
+    "skills/.evidence/mitgcm-theory-and-methods.md"
+  ]
+}
